@@ -1,4 +1,4 @@
-from flask import Blueprint 
+from flask import Blueprin, request
 from . import models 
 
 bp = Blueprint("reptile", __name__, url_prefix="/reptiles")
